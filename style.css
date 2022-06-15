@@ -1,0 +1,29 @@
+body{
+    color:#555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#navbar{
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none; 
+}
+
+#navbar li{
+    display: inline;
+}
