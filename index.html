@@ -10,85 +10,98 @@
   <body>
     <section>
       <nav id="navbar">
-        <img src="./assets/FES.svg" alt="logo" />
-        <div class="container">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#discord">Discord</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </div>
+        <img src="./assets/FES.svg" class="logo" alt="logo" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p>From Absolute Beginner to Pro with a simplified process</p>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend.</h1>
+            <p class="subheader">
+              From Absolute Beginner to Pro with a simplified process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img
+              src="./assets/laptop.png"
+              class="laptop"
+              alt="home page image"
+            />
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/laptop.png" alt="home page image" />
-        </figure>
       </header>
     </section>
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-            in similique, maiores excepturi temporibus nostrum id dolorem porro
-            quam repellat eius repellendus voluptatem ad mollitia! Reprehenderit
-            quo optio doloremque eaque.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            exercitationem illo ullam minus alias magnam aliquid? Aut cumque
-            labore sequi. Impedit tenetur ex tempora vel minima. Velit hic quasi
-            qui!
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laudantium in similique, maiores excepturi temporibus nostrum id
+              dolorem porro quam repellat eius repellendus voluptatem ad
+              mollitia! Reprehenderit quo optio doloremque eaque.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              exercitationem illo ullam minus alias magnam aliquid? Aut cumque
+              labore sequi. Impedit tenetur ex tempora vel minima. Velit hic
+              quasi qui!
+            </p>
+          </div>
+          <figure class="about_img">
+            <img src="./assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <img src="./assets/about.jpg" alt="" />
       </section>
       <section id="discord">
         <h2>Discord</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-            in similique, maiores excepturi temporibus nostrum id dolorem porro
-            quam repellat eius repellendus voluptatem ad mollitia! Reprehenderit
-            quo optio doloremque eaque.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            exercitationem illo ullam minus alias magnam aliquid? Aut cumque
-            labore sequi. Impedit tenetur ex tempora vel minima. Velit hic quasi
-            qui!
-          </p>
+        <div class="section__description">
+          <div>
+            <p class="section__description--wrapper">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laudantium in similique, maiores excepturi temporibus nostrum id
+              dolorem porro quam repellat eius repellendus voluptatem ad
+              mollitia! Reprehenderit quo optio doloremque eaque.
+            </p>
+            <p class="section__description--wrapper">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              exercitationem illo ullam minus alias magnam aliquid? Aut cumque
+              labore sequi. Impedit tenetur ex tempora vel minima. Velit hic
+              quasi qui!
+            </p>
+          </div>
+          <figure>
+            <img src="./assets/discord.png" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/discord.png" alt="" />
-        </figure>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
-            <span>Email</span>
-            <input type="text" placeholder="johndoe@example.com"/>
+          <span>Email</span>
+          <input type="text" placeholder="johndoe@example.com" />
         </form>
         <form action="">
-            <span>Message</span>
-            <textarea name="text" id="" cols="30" rows="10"></textarea>
+          <span>Message</span>
+          <textarea name="text" id="" cols="30" rows="10"></textarea>
         </form>
       </section>
     </main>
     <footer>
-       <img src="./assets/FES.svg" alt="">
-       <div>
+      <img src="./assets/FES.svg" alt="" />
+      <div>
         <a href="#about">About</a>
         <a href="#discord">Discord</a>
         <a href="#contact">Contact</a>
         <a href="#courses">Courses</a>
-       </div> 
-       <p> Copyright &copy;2022 Frontend Simplified</p>
+      </div>
+      <p>Copyright &copy;2022 Frontend Simplified</p>
     </footer>
   </body>
 </html>
