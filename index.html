@@ -39,67 +39,78 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium in similique, maiores excepturi temporibus nostrum id
-              dolorem porro quam repellat eius repellendus voluptatem ad
-              mollitia! Reprehenderit quo optio doloremque eaque.
-            </p>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              exercitationem illo ullam minus alias magnam aliquid? Aut cumque
-              labore sequi. Impedit tenetur ex tempora vel minima. Velit hic
-              quasi qui!
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laudantium in similique, maiores excepturi temporibus nostrum id
+                dolorem porro quam repellat eius repellendus voluptatem ad
+                mollitia! Reprehenderit quo optio doloremque eaque.
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus exercitationem illo ullam minus alias magnam aliquid?
+                Aut cumque labore sequi. Impedit tenetur ex tempora vel minima.
+                Velit hic quasi qui!
+              </p>
+            </div>
+            <figure class="about_img">
+              <img src="./assets/about.jpg" alt="" />
+            </figure>
           </div>
-          <figure class="about_img">
-            <img src="./assets/about.jpg" alt="" />
-          </figure>
         </div>
       </section>
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description">
-          <div>
-            <p class="section__description--wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium in similique, maiores excepturi temporibus nostrum id
-              dolorem porro quam repellat eius repellendus voluptatem ad
-              mollitia! Reprehenderit quo optio doloremque eaque.
-            </p>
-            <p class="section__description--wrapper">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              exercitationem illo ullam minus alias magnam aliquid? Aut cumque
-              labore sequi. Impedit tenetur ex tempora vel minima. Velit hic
-              quasi qui!
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div>
+              <p class="section__description--wrapper">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laudantium in similique, maiores excepturi temporibus nostrum id
+                dolorem porro quam repellat eius repellendus voluptatem ad
+                mollitia! Reprehenderit quo optio doloremque eaque.
+              </p>
+              <p class="section__description--wrapper">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus exercitationem illo ullam minus alias magnam aliquid?
+                Aut cumque labore sequi. Impedit tenetur ex tempora vel minima.
+                Velit hic quasi qui!
+              </p>
+            </div>
+            <figure>
+              <img src="./assets/discord.png" alt="" />
+            </figure>
           </div>
-          <figure>
-            <img src="./assets/discord.png" alt="" />
-          </figure>
         </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="johndoe@example.com" />
+          <input type="email" placeholder="johndoe@example.com" />
         </form>
         <form action="">
           <span>Message</span>
-          <textarea name="text" id="" cols="30" rows="10"></textarea>
+          <textarea
+            name="text"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Cool website, lets get connected!"
+          ></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#courses">Courses</a>
+      <img class="footer_logo" src="./assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="#courses">Courses</a>
       </div>
       <p>Copyright &copy;2022 Frontend Simplified</p>
     </footer>
